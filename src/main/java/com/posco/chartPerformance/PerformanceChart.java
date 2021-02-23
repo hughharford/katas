@@ -24,8 +24,9 @@ public class PerformanceChart {
 	private void readyOutput() {
 		// ready to draw 
 		StdDraw.enableDoubleBuffering();
-		StdDraw.setXscale(-300, 300);   // -32768, 32768
-		StdDraw.setYscale(-300, 300);
+		// StdDraw.setXscale(-300, 300);   // -32768, 32768
+
+		// StdDraw.setYscale(-300, 300);
 		StdDraw.setPenRadius(0.005); 
 		
 		// Posco blue

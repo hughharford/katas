@@ -1,4 +1,4 @@
-package com.posco.strings;
+package com.posco.techniques.strings;
 
 public class StringGames {
 

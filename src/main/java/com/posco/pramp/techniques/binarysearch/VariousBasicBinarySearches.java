@@ -1,4 +1,4 @@
-package com.posco.pramp.binarysearch;
+package com.posco.pramp.techniques.binarysearch;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.posco.lists;
+package com.posco.techniques.lists;
 
 import java.util.ArrayList;
 import java.util.List;

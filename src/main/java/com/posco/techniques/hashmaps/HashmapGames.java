@@ -1,4 +1,4 @@
-package com.posco.hashmaps;
+package com.posco.techniques.hashmaps;
 
 import java.util.HashMap;
 
