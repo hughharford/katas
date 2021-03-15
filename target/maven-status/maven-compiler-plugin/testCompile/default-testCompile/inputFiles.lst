@@ -1,2 +1,5 @@
-/home/hsth/java-training/210128_Katas/src/test/java/runners/RunCucumberTest.java
-/home/hsth/java-training/210128_Katas/src/test/java/runners/steps/RotateImageTest.java
+/home/hsth/java-training/210128_Katas/src/test/java/cucumber/DoChopDataTableTest.java
+/home/hsth/java-training/210128_Katas/src/test/java/cucumber/RunCucumberTest.java
+/home/hsth/java-training/210128_Katas/src/test/java/cucumber/CanRemoveKfromListTest.java
+/home/hsth/java-training/210128_Katas/src/test/java/cucumber/DoesTheChopWorkTest.java
+/home/hsth/java-training/210128_Katas/src/test/java/cucumber/RotateImageTest.java

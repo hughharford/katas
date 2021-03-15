@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.726 s <<< FAILURE! - in cucumber.RunCucumberTest
-Rotate Image.Simple test  Time elapsed: 0.195 s  <<< ERROR!
-java.lang.IllegalArgumentException: Cannot handle 
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.652 s - in cucumber.RunCucumberTest

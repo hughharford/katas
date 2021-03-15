@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith( Cucumber.class )
 @CucumberOptions(
-  				features = "src/test/java/cucumber/RotateImage.feature"
+  				features = "src/test/java/cucumber/RemoveKfromList.feature"
   				, publish = false
   				// "src/test/java/cucumber/RotateImage.feature"
 				

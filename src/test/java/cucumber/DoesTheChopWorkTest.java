@@ -65,12 +65,5 @@ public class DoesTheChopWorkTest {
 	}
 
 
-	@ParameterType("\\[([0-9, ]*)\\]")
-	public List<Integer> listOfIntegers(String integers) {
-		return Arrays.stream(integers.split(", ?"))
-				.map(Integer::parseInt)
-				.collect(Collectors.toList());
-
-	}
 
 }
