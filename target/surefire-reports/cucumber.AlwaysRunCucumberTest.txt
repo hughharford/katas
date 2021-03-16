@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.AlwaysRunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.05 s <<< FAILURE! - in cucumber.AlwaysRunCucumberTest
+Add Two Huge Numbers.Basic large number addition #6  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: should be: (9999, 9999, 9999, 9999, 9999, 9999)
+
+Add Two Huge Numbers.Basic large number addition #7  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: should be: (1, 0, 0, 0, 0, 0)
+

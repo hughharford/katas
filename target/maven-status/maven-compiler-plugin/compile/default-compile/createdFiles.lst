@@ -29,6 +29,7 @@ com/posco/designpatterns/composite/Demo$1.class
 com/posco/codesignal/removeKfromList/RemoveKFromList.class
 com/posco/techniques/lists/SomeLists.class
 com/posco/linkedin/carpark/Truck.class
+com/posco/codesignal/addHugeNumbers/AddHugeNumbers.class
 com/posco/linkedin/carpark/CarPark.class
 com/posco/linkedin/carpark/Vehicle$VehicleType.class
 com/posco/linkedin/carpark/Van.class

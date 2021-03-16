@@ -1,6 +1,7 @@
 cucumber/IsListAPalindromeTest.class
 cucumber/DoesTheChopWorkTest.class
-cucumber/RunCucumberTest.class
+cucumber/AlwaysRunCucumberTest.class
+cucumber/CanAddHugeNumbersTest.class
 cucumber/DoChopDataTableTest.class
 cucumber/RotateImageTest.class
 cucumber/CanRemoveKfromListTest.class

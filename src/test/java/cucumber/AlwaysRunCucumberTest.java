@@ -7,9 +7,9 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith( Cucumber.class )
 @CucumberOptions(
-  				features = "src/test/java/cucumber/IsListAPalindrome.feature"
+  				features = "src/test/java/cucumber/AddTwoHugeNumbers.feature"
   				, publish = false
-  				// IsListAPalindromeTest
+  				// "src/test/java/cucumber/IsListAPalindrome.feature"
   				// "src/test/java/cucumber/RemoveKfromList.feature"
   				// "src/test/java/cucumber/RotateImage.feature"
 				
@@ -20,7 +20,7 @@ import io.cucumber.junit.CucumberOptions;
 				)
 
 
-public class RunCucumberTest
+public class AlwaysRunCucumberTest
 {
   //[...]
 }
