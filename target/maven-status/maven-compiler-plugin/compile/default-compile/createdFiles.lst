@@ -19,13 +19,12 @@ com/posco/codekata/KarateChop.class
 com/posco/linkedin/carpark/Vehicle.class
 com/posco/designpatterns/composite/Circle.class
 com/posco/techniques/strings/StringGames.class
-com/codesignal/removeKfromlist/removeKFromList.class
 com/posco/designpatterns/composite/Demo.class
 com/posco/designpatterns/composite/Shape.class
+com/posco/codesignal/isListPalindrome/CheckIfListIsAPalindrome.class
 com/posco/designpatterns/composite/ImageEditor$EditorCanvas.class
 com/posco/designpatterns/composite/Dot.class
 com/posco/codesignal/iscryptsolution/CryptSolution.class
-com/codesignal/removeKfromlist/ListNode.class
 com/posco/designpatterns/composite/Demo$1.class
 com/posco/codesignal/removeKfromList/RemoveKFromList.class
 com/posco/techniques/lists/SomeLists.class

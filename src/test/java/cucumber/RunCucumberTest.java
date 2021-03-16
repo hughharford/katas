@@ -7,8 +7,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith( Cucumber.class )
 @CucumberOptions(
-  				features = "src/test/java/cucumber/RemoveKfromList.feature"
+  				features = "src/test/java/cucumber/IsListAPalindrome.feature"
   				, publish = false
+  				// IsListAPalindromeTest
+  				// "src/test/java/cucumber/RemoveKfromList.feature"
   				// "src/test/java/cucumber/RotateImage.feature"
 				
   				// , glue= {"src/test/java/cucumbersteps"}

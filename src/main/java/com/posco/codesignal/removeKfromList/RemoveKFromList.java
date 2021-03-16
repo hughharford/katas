@@ -84,9 +84,11 @@ public class RemoveKFromList {
 	public void outputList(ListNode<Integer> listToConsole) {
 
 		while(listToConsole != null) {
-			System.out.print(listToConsole.value + ",");
+			System.out.print(listToConsole.value + " ");
 			listToConsole = listToConsole.next;
 		}
+	    System.out.println();
+
 	}
 	
 
