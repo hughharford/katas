@@ -8,7 +8,7 @@ Scenario Outline: Basic large number addition
    Given two inputLists for huge number addition <numberA> and <numberB>
    When a huge number addition operation is performed
    Then the additions answer is <hugeNumberAnswer>
-Examples:
+Examples: Numbers to add
 	| numberA             	| numberB  			| hugeNumberAnswer  			|
 	| "9876, 5432, 1999"	| "1, 8001"			| "9876, 5434, 0"				|
 	| "123, 4, 5"			| "100, 100, 100"	| "223, 104, 105"				|
