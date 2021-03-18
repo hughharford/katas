@@ -11,7 +11,7 @@ public class AddHugeNumbers {
 	}
 	
 	ListNode<Integer> addTwoHugeNumbers(ListNode<Integer> a, ListNode<Integer> b) {
-		boolean showDetail = false;
+		boolean showDetail = true;
         
 		/*
 		if (showDetail) {
@@ -57,8 +57,8 @@ public class AddHugeNumbers {
 				root = new ListNode<>(result);
 				tail = root;
 
-				if (showDetail) System.out.println("intended result: " + result
-						+ " and thisR: " + remainder);
+				if (showDetail) System.out.println("result: " + result
+						+ " and remainder: " + remainder);
 			} else {
 				if (showDetail) System.out.println("adding2");
 				
@@ -68,8 +68,8 @@ public class AddHugeNumbers {
 				tail.next = new ListNode<>(result);
 				tail = tail.next;
 				
-				if (showDetail) System.out.println("actual input: " + result 
-						+ " and thisR: " + remainder);
+				if (showDetail) System.out.println("result: " + result
+						+ " and remainder: " + remainder);
 			}
             /* If we reach here, then a and b are not null 
                and their data is same, so move to next nodes 
@@ -94,11 +94,14 @@ public class AddHugeNumbers {
 	static int[] checkAdditionForRemainders(int a, int b, int c) {
 		
 		int thisRemainder = 0;
-    	int thisResult = a + b + c;
+		int thisResult = 0;
+    	int interimResult = a + b + c;
     	
-    	if (thisResult > 9999) {
-    		thisRemainder = thisResult - 9999;
-    		thisResult = thisResult - thisRemainder - 9999;
+    	if (interimResult > 9999) {
+    		thisResult = interimResult - 10000;
+    		thisRemainder = interimResult - thisResult - 9999;
+    	} else {
+    		thisResult = interimResult;
     	}
     	return new int[] {thisResult, thisRemainder};
 	}
@@ -164,7 +167,15 @@ public class AddHugeNumbers {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		trialAThing();
+	}
+	
+	private static void trialAThing() {
+		int a = 9996;
+		int b = 8456;
+		int c = 0;
+		c = (a+b) / 10000;
+		System.out.println(c);
 	}
 
 }

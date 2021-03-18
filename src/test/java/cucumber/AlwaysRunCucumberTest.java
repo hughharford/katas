@@ -6,9 +6,10 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith( Cucumber.class )
-@CucumberOptions(
-  				features = "src/test/java/cucumber/AddTwoHugeNumbers.feature"
+@CucumberOptions( 
+  				features = "src/test/java/cucumber/MergeTwoLinkedLists.feature"
   				, publish = false
+  				// "src/test/java/cucumber/AddTwoHugeNumbers.feature"
   				// "src/test/java/cucumber/IsListAPalindrome.feature"
   				// "src/test/java/cucumber/RemoveKfromList.feature"
   				// "src/test/java/cucumber/RotateImage.feature"

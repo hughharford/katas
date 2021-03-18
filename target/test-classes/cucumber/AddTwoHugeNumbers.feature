@@ -1,6 +1,6 @@
 #Author: hugh.harford@poscoconsulting.com
 #Keywords Summary :
-@codeSignal.removeKfromList
+@codeSignal.addHugeNumbers
 Feature: Add Two Huge Numbers
 #Scenario: Can we handle enormous numbers correctly?
 @basicScenario
@@ -18,3 +18,6 @@ Examples: Numbers to add
 	| "1"					| "9998, 9999, 9999, 9999, 9999, 9999" | "9999, 0, 0, 0, 0, 0" |
 	| "1"					| "9999, 9999, 9999, 9999, 9999, 9999" | "1, 0, 0, 0, 0, 0, 0" |
 	| "8339, 4510"			| "2309"			| "8339, 6819"					|
+	| "0"					| "10, 300, 7"		| "10, 300, 7"					|
+	| "0"					| "0"				| "0"							|
+	| "9665"				| "6933, 8443, 5132, 6809, 8519, 9096" | "6933, 8443, 5132, 6809, 8520, 8761" |
